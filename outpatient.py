@@ -6,7 +6,7 @@ import pandas as pd
 # Load the trained model and label encoder
 import joblib
 from sklearn.preprocessing import LabelEncoder
-df = pd.read_excel('C:/Users/ADMIN/Desktop/outpatienthr.xlsx')
+df = pd.read_excel('/content/outpatienthr.xlsx')
 
 # Assuming you have already encoded your labels as follows
 label_encoder = LabelEncoder()
